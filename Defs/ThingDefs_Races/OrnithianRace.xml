@@ -79,6 +79,9 @@
               <bodyPart>left eye</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
@@ -132,9 +135,13 @@
               <bodyPart>right eye</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>eyes</colorChannel>
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
@@ -144,9 +151,9 @@
                     <Female>0</Female>
                   </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(0.42,-0.22)</Normal_Average>
-                    <Normal_Wide>(0.42,-0.22)</Normal_Wide>
-                    <Normal_Pointy>(0.42,-0.22)</Normal_Pointy>
+                    <Normal_Average>(0.0,-0.0)</Normal_Average>
+                    <Normal_Wide>(0.0,-0.0)</Normal_Wide>
+                    <Normal_Pointy>(0.0,-0.0)</Normal_Pointy>
                   </crownTypes>
                 </south>
                 <north>
@@ -178,6 +185,7 @@
                   </crownTypes>
                 </west>
               </offsets>
+              <shaderType>Cutout</shaderType>
             </li>
             <!-- ================ BEAK ================== -->
             <li>
@@ -185,6 +193,9 @@
               <bodyPart>OrnithianBeak</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
@@ -231,6 +242,7 @@
                   </crownTypes>
                 </west>
               </offsets>
+              <shaderType>Cutout</shaderType>
             </li>
             
           </bodyAddons>
