@@ -199,7 +199,7 @@
           <minAge>0</minAge>
         </li>
         <li>
-          <def>HumanLikeToddler</def>
+          <def>HumanlikeToddler</def>
           <minAge>0.5</minAge>
         </li>
         <li>
@@ -215,9 +215,9 @@
           <minAge>3</minAge>
         </li>
       </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
       <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
