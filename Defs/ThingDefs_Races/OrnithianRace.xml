@@ -90,9 +90,9 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>(0.42,-0.22)</Average_Normal>
-                    <Average_Wide>(0.42,-0.22)</Average_Wide>
-                    <Average_Pointy>(0.42,-0.22)</Average_Pointy>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
                   </crownTypes>
                 </south>
                 <north>
@@ -101,9 +101,9 @@
                 </east>
                 <west>
                   <crownTypes>
-                    <Average_Normal>(-0.42,-0.22)</Average_Normal>
-                    <Average_Wide>(-0.42,-0.22)</Average_Wide>
-                    <Average_Pointy>(-0.42,-0.22)</Average_Pointy>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
                   </crownTypes>
                 </west>
               </offsets>
@@ -125,18 +125,18 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>(0.42,-0.22)</Average_Normal>
-                    <Average_Wide>(0.42,-0.22)</Average_Wide>
-                    <Average_Pointy>(0.42,-0.22)</Average_Pointy>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
                   </crownTypes>
                 </south>
                 <north>
                 </north>
                 <east>
                   <crownTypes>
-                    <Average_Normal>(-0.42,-0.22)</Average_Normal>
-                    <Average_Wide>(-0.42,-0.22)</Average_Wide>
-                    <Average_Pointy>(-0.42,-0.22)</Average_Pointy>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
                   </crownTypes>
                 </east>
                 <west>
@@ -160,9 +160,9 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>(0.42,-0.22)</Average_Normal>
-                    <Average_Wide>(0.42,-0.22)</Average_Wide>
-                    <Average_Pointy>(0.42,-0.22)</Average_Pointy>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
                   </crownTypes>
                 </south>
                 <north>
@@ -321,7 +321,7 @@
         </li>
         <li>
           <def>HumanlikeAdult</def>
-          <minAge>3</minAge>
+          <minAge>18</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -335,8 +335,8 @@
       <ageGenerationCurve>
         <points>
           <li>(2,0)</li>
-          <li>(4,100)</li>
           <li>(20,100)</li>
+          <li>(30,100)</li>
           <li>(50,100)</li>
           <li>(60,30)</li>
           <li>(70,18)</li>
