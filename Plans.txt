@@ -31,13 +31,15 @@ Other Animals
 Other Things:  
   
 New nutrient sources
--Seeds, perhaps millet farm? Maybe have it similar to chocolate, but only Ornithians enjoy it. 
--Flowers are edible for them
+  -Seeds, perhaps millet farm? Maybe have it similar to chocolate, but only Ornithians enjoy it. 
+  -Flowers are edible for them
 
 New building material/wall types
   -Woven sticks, quick to build but are very weak.
   -Featherwoven sticks, adds ambient heat in the area as it helps keep an area warm.
   -Nesttraps, interwoven sticks that jut out of the ground. Makes an area where pawns move much slower through. 
+  -Seed Oven (maybe) for cooking delicious seed treats
+  -Nestbed, a bed treated with comforting feathers and healing herbs. (Similar to hospital bed, not quite as effective)
   
 New Weapons/Equipment
-  -Feathergun: Gun that does minimal damage, but has very fast fire-rate. 
+  -Feathergun: Gun that does minimal damage, but has very fast rate of fire. 
