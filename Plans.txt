@@ -1,18 +1,21 @@
 TO DO:
 Race Details: Live about as long as humans.
   -Weaker bones, so slightly less health. Their light bones gives them superior movement speed. 
-  -Procreate via eggs. (try to make it so they get sad if you eat fertilized ones)
+  -Procreate via eggs. (try to make it so they get sad if you eat fertilized ones) Make sure that it takes a long time for eggs to be produced.
 Custom head and body graphics
--Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
--Add cheek body parts so that some different colors can be present on the face. 
--Add beak body part on top of cheeks to prevent overlap
--Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
+  -Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
+  -Add cheek body part so that some different colors can be present on the face. 
+  -Add beak body part on top of cheeks to prevent overlap
+  -Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
 Custom body setup
--Beak, tail feathers
+  -Beak, tail feathers
 New social interactions
--Preening?
-Backstory ideas
--Woodpecker: Good with plants
+  -Preening?
+Backstory ideas (Have multiple backstories for each bird type so that there's some good options, these are just what the base beak types give)
+  -Woodpecker: Good with plantcutting
+  -Owl: Obviously has night-owl trait, good shooting for night hunting.
+  -Parrot: Higher social and crafting. Perhaps higher intellectual.
+
 
 New nutrient sources
 -Seeds, perhaps millet farm? Maybe have it similar to chocolate, but only Ornithians enjoy it. 
