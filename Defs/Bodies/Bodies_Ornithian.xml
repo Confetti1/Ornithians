@@ -179,10 +179,10 @@
                   </groups>
                 </li>
                 <li>
-                  <def>Beak</def>
+                  <def>OrnithianBeak</def>
                   <coverage>0.15</coverage>
                   <groups>
-                    <li>Teeth</li>
+                    <li>Beak</li>
                     <li>FullHead</li>
                   </groups>
                 </li>
