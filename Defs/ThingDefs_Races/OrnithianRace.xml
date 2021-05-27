@@ -113,8 +113,46 @@
             </li>
             <!-- ================ RIGHT EYE ================== -->
             <li>
-              <path>Ornithian/Eyes/EyeLeft</path>
-              <bodyPart>left eye</bodyPart>
+              <path>Ornithian/Eyes/EyeRight</path>
+              <bodyPart>right eye</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <alignWithHead>true</alignWithHead>
+              <drawnInBed>true</drawnInBed>
+              <drawnDesiccated>false</drawnDesiccated>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </east>
+                <west>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </west>
+              </offsets>
+            </li>
+            <!-- ================ BEAK ================== -->
+            <li>
+              <path>Ornithian/Beaks/BasicBeak</path>
+              <bodyPart>Beak</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <alignWithHead>true</alignWithHead>
@@ -165,7 +203,6 @@
         <hasHair>True</hasHair>
         <hairTags>
           <li>Ornithian</li>
-          <li>Urban</li>
         </hairTags>
       </hairSettings>
       
