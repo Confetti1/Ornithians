@@ -5,6 +5,7 @@ Race Details: Live about as long as humans.
   -Mature quickly (A few years) in order to get children to adults fast.
   -Talons and beak do poke damage
   -Generally do better in hot environments than average, and do pretty normal in cold ones. 
+  -Detail their societal structure, figure out backstories based on it. 
 Custom head and body graphics
   -Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
   -Add cheek body part so that some different colors can be present on the face. 
@@ -17,10 +18,12 @@ New social interactions
 Backstory ideas (Have multiple backstories for each bird type so that there's some good options, these are just what the base beak types give)
   -Woodpecker: Good with plantcutting
   -Owl: Obviously has night-owl trait, good shooting for night hunting.
-  -Parrot: Higher social and crafting. Perhaps higher intellectual
+  -Parrot: Higher social and crafting. Perhaps higher intellectual.
+  -Nester: Cooking and Medical
+  -Separate backstories for refugees and/or starting colonists. 
 
 Possible Ornithian subspecies:
-  -Corvians: Raven-themed folks who have no qualms with eating rotten corpses. Higher social and intellectual.
+  -Corvians: Raven-themed folks who have no qualms with eating rotten corpses. Higher social and intellectual. (OR make the rotten food eating a trait, and force it for Corvid beak type!!)
 
 Other Animals
   -Some kind of pack beast that they use, perhaps a giant bird or some other big creature. Add backstories for those who grew up caring for them.
