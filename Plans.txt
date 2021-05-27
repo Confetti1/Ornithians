@@ -28,6 +28,7 @@ Other Things:
   
 New nutrient sources
 -Seeds, perhaps millet farm? Maybe have it similar to chocolate, but only Ornithians enjoy it. 
+-Flowers are edible for them
 
 New building material/wall types
   -Woven sticks, quick to build but are very weak.
