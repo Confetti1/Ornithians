@@ -73,8 +73,6 @@
             </li>
           </colorChannels>
           <bodyAddons>
-            <li>
-            </li>
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
@@ -251,5 +249,11 @@
       <li MayRequire="Ludeon.Rimworld.Royalty">CureBloodRot</li>
       <li MayRequire="Ludeon.Rimworld.Royalty">CureAbasia</li>
     </recipes>
+    
+    <comps>
+    </comps>
+    
+    <modExtensions>
+    </modExtensions>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
