@@ -55,7 +55,35 @@
                 <options>
                   <li>
                     <weight>10</weight>
-                    <only>RGBA(205, 214, 32, 255)</only>
+                    <only>RGBA(204, 200, 96, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(133, 196, 112, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(112, 188, 196, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(135, 102, 76, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(227, 232, 232, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(207, 78, 78, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(100, 196, 174, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(155, 196, 100, 255)</only>
                   </li>
                 </options>
               </first>
@@ -66,7 +94,58 @@
                 <options>
                   <li>
                     <weight>10</weight>
-                    <only>RGBA(214, 32, 99, 255)</only>
+                    <only>RGBA(204, 200, 96, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(133, 196, 112, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(112, 188, 196, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(135, 102, 76, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(227, 232, 232, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(207, 78, 78, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(100, 196, 174, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(155, 196, 100, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>beak</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(227, 182, 203, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(64, 57, 50, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(173, 150, 101, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(204, 96, 96, 255)</only>
                   </li>
                 </options>
               </first>
@@ -157,6 +236,7 @@
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>beak</colorChannel>
               <offsets>
                 <south>
                   <crownTypes>
