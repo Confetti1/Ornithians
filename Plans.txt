@@ -11,7 +11,7 @@ Custom head and body graphics
   -Add beak body part on top of cheeks to prevent overlap
   -Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
 Custom body setup
-  -Beak, tail feathers, talons
+  -Beak, tail feathers, talons, crop?
 New social interactions
   -Preening?
 Backstory ideas (Have multiple backstories for each bird type so that there's some good options, these are just what the base beak types give)
