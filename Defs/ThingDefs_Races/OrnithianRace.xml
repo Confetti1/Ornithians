@@ -81,7 +81,7 @@
               <layerInvert>false</layerInvert>
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
-              <drawnDessicated>false</drawnDessicated>
+              <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
@@ -108,7 +108,7 @@
                     <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
                     <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
                   </crownTypes>
-                </south>
+                </west>
               </offsets>
             </li>
             <!-- ================ RIGHT EYE ================== -->
@@ -119,7 +119,7 @@
               <layerInvert>false</layerInvert>
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
-              <drawnDessicated>false</drawnDessicated>
+              <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
@@ -146,7 +146,7 @@
                     <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
                     <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
                   </crownTypes>
-                </south>
+                </west>
               </offsets>
             </li>
             
