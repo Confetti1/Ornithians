@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Ornithian</defName>
+    <label>ornithian</label>
+    <description>Ornithians are a race of humanoids with many avian features. Similar to their winged ancestors, Ornithians have hollow bones which are a bit easier to injure and break. Thankfully, these bones allow them to better avoid danger by making them much lighter and quicker on their feet.</description>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <canLayDown>true</canLayDown>
+        <!--
+<validBeds>
+<li>BirdNest</li>
+</validBeds>
+-->
+        <chemicalSettings>
+        </chemicalSettings>
+        <forcedRaceTraitEntries>
+        </forcedRaceTraitEntries>
+        <disallowedTraits>
+        </disallowedTraits>
+        <traitCount>1</traitCount>
+        <additionalTraits>1</additionalTraits>
+        <maxDamageForSocialFight>4</maxDamageForSocialFight>
+        <allowHumanBios>false</allowHumanBios>
+        <minAgeForAdulthood>3</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+        
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+            <li>Average_Pointy</li>
+            <li>Average_Wide</li>
+          </aliencrowntypes>
+          
+          <alienbodytypes>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Thin</li>
+          </alienbodytypes>
+          
+          <useGenderedHeads>true</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          
+          <customDrawSize>(1.0, 1.0)</customDrawSize>
+          <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+          <customPortraitDrawSize<(1.0, 1.0)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+          <headOffset>(0, 0)</headOffset>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(205, 214, 32, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(214, 32, 99, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      
+      <graphicPaths>
+        <li>
+          <body>Ornithian/Bodies/</body>
+          <head>Ornithian/Heads/</head>
+        </li>
+      </graphicPaths>
+      
+      <hairSettings>
+        <hasHair>True</hasHair>
+        <hairTags>
+          <li>Ornithian</li>
+        </hairTags>
+      </hairSettings>
+      
+      <thoughtSettings>
+      </thoughtSettings>
+      
+      <relationSettings>
+        <relationChanceModifierLover>1</relationchanceModifierLover>
+        <relationChanceModifierExLover>1</relationchanceModifierExLover>
+        
+        <relationChanceModifierFiance>1</relationchanceModifierFiance>
+        <relationChanceModifierSpouse>1</relationchanceModifierSpouse>
+        <relationChanceModifierExSpouse>1</relationchanceModifierExSpouse>
+        
+        <relationChanceModifierParent>1</relationchanceModifierParent>
+        <relationChanceModifierChild>1</relationchanceModifierChild>
+        <relationChanceModifierSibling>1</relationchanceModifierSibling>
+      </relationSettings>
+      
+      <raceRestriction>
+      </raceRestriction>
+      
+
+      
+
+    </alienRace>
+</Defs>
