@@ -1,3 +1,21 @@
+TO DO:
+Race Details: Live about as long as humans.
+  -Weaker bones, so slightly less health. Their light bones gives them superior movement speed. 
+  -Procreate via eggs. (try to make it so they get sad if you eat fertilized ones)
+Custom head and body graphics
+-Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
+-Add cheek body parts so that some different colors can be present on the face. 
+-Add beak body part on top of cheeks to prevent overlap
+-Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
 Custom body setup
+-Beak, tail feathers
 New social interactions
 -Preening?
+Backstory ideas
+-Woodpecker: Good with plants
+
+New nutrient sources
+-Seeds, perhaps millet farm? Maybe have it similar to chocolate, but only Ornithians enjoy it. 
+
+Possible Ornithian subspecies:
+  -Corvians: Raven-themed folks who have no qualms with eating rotten corpses. 
