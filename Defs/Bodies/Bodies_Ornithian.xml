@@ -3,8 +3,8 @@
 
 
   <BodyDef>
-    <defName>Human</defName>
-    <label>human</label>
+    <defName>Ornithian</defName>
+    <label>ornithian</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>
@@ -179,14 +179,7 @@
                   </groups>
                 </li>
                 <li>
-                  <def>Nose</def>
-                  <coverage>0.10</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Jaw</def>
+                  <def>OrnithianBeak</def>
                   <coverage>0.15</coverage>
                   <groups>
                     <li>Teeth</li>
@@ -251,17 +244,8 @@
                   </groups>
                   <parts>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>left pinky</customLabel>
-                      <coverage>0.06</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>LeftHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
-                      <customLabel>left ring finger</customLabel>
+                      <def>FrontClaw</def>
+                      <customLabel>first digit</customLabel>
                       <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
@@ -269,9 +253,18 @@
                       </groups>
                     </li>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>left middle finger</customLabel>
-                      <coverage>0.08</coverage>
+                      <def>FrontClaw</def>
+                      <customLabel>second digit</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups>
+                        <li>Hands</li>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>FrontClaw</def>
+                      <customLabel>third digit</customLabel>
+                      <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>LeftHand</li>
@@ -279,18 +272,9 @@
                       </groups>
                     </li>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>left index finger</customLabel>
+                      <def>FrontClaw</def>
+                      <customLabel>fourth digit</customLabel>
                       <coverage>0.07</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>LeftHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
-                      <customLabel>left thumb</customLabel>
-                      <coverage>0.08</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>LeftHand</li>
@@ -356,17 +340,8 @@
                   </groups>
                   <parts>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>right pinky</customLabel>
-                      <coverage>0.06</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>RightHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
-                      <customLabel>right ring finger</customLabel>
+                      <def>FrontClaw</def>
+                      <customLabel>first digit</customLabel>
                       <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
@@ -374,9 +349,18 @@
                       </groups>
                     </li>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>right middle finger</customLabel>
-                      <coverage>0.08</coverage>
+                      <def>FrontClaw</def>
+                      <customLabel>second digit</customLabel>
+                      <coverage>0.07</coverage>
+                      <groups>
+                        <li>Hands</li>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>FrontClaw</def>
+                      <customLabel>third digit</customLabel>
+                      <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>RightHand</li>
@@ -384,18 +368,9 @@
                       </groups>
                     </li>
                     <li>
-                      <def>Finger</def>
-                      <customLabel>right index finger</customLabel>
+                      <def>FrontClaw</def>
+                      <customLabel>fourth digit</customLabel>
                       <coverage>0.07</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>RightHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
-                      <customLabel>right thumb</customLabel>
-                      <coverage>0.08</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>RightHand</li>
@@ -451,41 +426,33 @@
               </groups>
               <parts>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>left little toe</customLabel>
-                  <coverage>0.06</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>left fourth toe</customLabel>
+                  <def>RearClaw</def>
+                  <customLabel>first digit</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>left middle toe</customLabel>
-                  <coverage>0.08</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>second digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>left second toe</customLabel>
-                  <coverage>0.09</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>third digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>left big toe</customLabel>
-                  <coverage>0.09</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>fourth digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -530,41 +497,33 @@
               </groups>
               <parts>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>right little toe</customLabel>
-                  <coverage>0.06</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>right fourth toe</customLabel>
+                  <def>RearClaw</def>
+                  <customLabel>first digit</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>right middle toe</customLabel>
-                  <coverage>0.08</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>second digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>right second toe</customLabel>
-                  <coverage>0.09</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>third digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Toe</def>
-                  <customLabel>right big toe</customLabel>
-                  <coverage>0.09</coverage>
+                  <def>RearClaw</def>
+                  <customLabel>fourth digit</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
