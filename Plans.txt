@@ -4,6 +4,7 @@ Race Details: Live about as long as humans.
   -Procreate via eggs. (try to make it so they get sad if you eat fertilized ones) Make sure that it takes a long time for eggs to be produced.
   -Mature quickly (A few years) in order to get children to adults fast.
   -Talons and beak do poke damage
+  -Generally do better in hot environments than average, and do pretty normal in cold ones. 
 Custom head and body graphics
   -Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
   -Add cheek body part so that some different colors can be present on the face. 
@@ -22,7 +23,7 @@ Possible Ornithian subspecies:
   -Corvians: Raven-themed folks who have no qualms with eating rotten corpses. Higher social and intellectual.
 
 Other Animals
-  -Some kind of pack beast that they use, perhaps a giant bird or some other big creature. 
+  -Some kind of pack beast that they use, perhaps a giant bird or some other big creature. Add backstories for those who grew up caring for them.
   
 Other Things:  
   
