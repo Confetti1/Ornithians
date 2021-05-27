@@ -85,6 +85,11 @@
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
                     <Normal_Average>(0.42,-0.22)</Normal_Average>
                     <Normal_Wide>(0.42,-0.22)</Normal_Wide>
@@ -95,6 +100,11 @@
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
                     <Normal_Average>(-0.42,-0.22)</Normal_Average>
                     <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
@@ -103,6 +113,11 @@
                 </east>
                 <west>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
                     <Normal_Average>(-0.42,-0.22)</Normal_Average>
                     <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
@@ -123,6 +138,11 @@
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
                     <Normal_Average>(0.42,-0.22)</Normal_Average>
                     <Normal_Wide>(0.42,-0.22)</Normal_Wide>
@@ -133,18 +153,28 @@
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
-                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
-                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                    <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42, 0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42, 0.22)</Normal_Pointy>
                   </crownTypes>
                 </east>
                 <west>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
-                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
-                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                    <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42, 0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42, 0.22)</Normal_Pointy>
                   </crownTypes>
                 </west>
               </offsets>
@@ -152,7 +182,7 @@
             <!-- ================ BEAK ================== -->
             <li>
               <path>Ornithian/Beaks/BasicBeak</path>
-              <bodyPart>Beak</bodyPart>
+              <bodyPart>OrnithianBeak</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <alignWithHead>true</alignWithHead>
@@ -161,6 +191,11 @@
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
                     <Normal_Average>(0.42,-0.22)</Normal_Average>
                     <Normal_Wide>(0.42,-0.22)</Normal_Wide>
@@ -171,18 +206,28 @@
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
-                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
-                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                    <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42, 0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42, 0.22)</Normal_Pointy>
                   </crownTypes>
                 </east>
                 <west>
                   <layerOffset>0</layerOffset>
+                  <bodyTypes>
+                    <Thin>0</Thin>
+                    <Male>0</Male>
+                    <Female>0</Female>
+                  </bodyTypes>
                   <crownTypes>
-                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
-                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
-                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                    <Normal_Average>(-0.42, 0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42, 0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42, 0.22)</Normal_Pointy>
                   </crownTypes>
                 </west>
               </offsets>
@@ -200,7 +245,7 @@
       </graphicPaths>
       
       <hairSettings>
-        <hasHair>True</hasHair>
+        <hasHair>False</hasHair>
         <hairTags>
           <li>Ornithian</li>
         </hairTags>
