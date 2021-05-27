@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ============================================================== CHILDHOODS ===================================================================== -->
+  <AlienRace.BackstoryDef>
+    <defName>CuriousHatchling</defName>
+    <title>Curious Hatchling</title>
+    <titleShort>Curious</titleShort>
+    <baseDescription>As soon as [PAWN_nameDef] was hatched, [PAWN_pronoun] curiously poked and prodded at every little thing. This may have been annoying for [PAWN_possessive] nestmothers, but it was a great opportunity for [PAWN_objective] to learn about the world around [PAWN_possessive].</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <!-- =================================================== ADULTHOODS ====================================================== -->
+  <AlienRace.BackstoryDef>
+    <defName>OrnithianFarmer</defName>
+    <title>Ornithian Farmer</title>
+    <titleShort>Farmer</titleShort>
+    <baseDescription>[PAWN_nameDef] grew up loving the taste of plants and seeds. When [PAWN_pronoun] learned that [PAWN_pronoun] could farm them [PAWN_objective]self, [PAWN_pronoun] decided to become a farmer.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <!--
+  <AlienRace.BackstoryDef>
+    <defName>Example</defName>
+    <title>Example</title>
+    <titleShort>Example</titleShort>
+    <baseDescription>Example</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>0</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName></defName>
+        <degree></degree>
+        <chance></chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+    </disallowedTraits>
+    <workDisables>
+      <li></li>
+    </workDisables>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonalty>100</femaleCommonality>
+  </AlienRace.BackstoryDef>
+-->
+</Defs>
