@@ -40,6 +40,7 @@ New building material/wall types
   -Nesttraps, interwoven sticks that jut out of the ground. Makes an area where pawns move much slower through. 
   -Seed Oven (maybe) for cooking delicious seed treats
   -Nestbed, a bed treated with comforting feathers and healing herbs. (Similar to hospital bed, not quite as effective)
+  -Component Builder? A more simple place to fabricate components, takes significantly longer. 
   
 New Weapons/Equipment
   -Feathergun: Gun that does minimal damage, but has very fast rate of fire. 
