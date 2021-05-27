@@ -179,7 +179,7 @@
                   </groups>
                 </li>
                 <li>
-                  <def>OrnithianBeak</def>
+                  <def>Beak</def>
                   <coverage>0.15</coverage>
                   <groups>
                     <li>Teeth</li>
