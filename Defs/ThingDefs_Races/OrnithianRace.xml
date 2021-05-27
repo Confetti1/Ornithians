@@ -40,7 +40,7 @@
             <li>Thin</li>
           </alienbodytypes>
           
-          <useGenderedHeads>true</useGenderedHeads>
+          <useGenderedHeads>false</useGenderedHeads>
           <useGenderedBodies>false</useGenderedBodies>
           
           <customDrawSize>(1.0, 1.0)</customDrawSize>
@@ -73,6 +73,83 @@
             </li>
           </colorChannels>
           <bodyAddons>
+            <!-- ================ LEFT EYE ================== -->
+            <li>
+              <path>Ornithian/Eyes/EyeLeft</path>
+              <bodyPart>left eye</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <alignWithHead>true</alignWithHead>
+              <drawnInBed>true</drawnInBed>
+              <drawnDessicated>false</drawnDessicated>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </east>
+                <west>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </south>
+              </offsets>
+            </li>
+            <!-- ================ RIGHT EYE ================== -->
+            <li>
+              <path>Ornithian/Eyes/EyeLeft</path>
+              <bodyPart>left eye</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <alignWithHead>true</alignWithHead>
+              <drawnInBed>true</drawnInBed>
+              <drawnDessicated>false</drawnDessicated>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </east>
+                <west>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Normal_Average>(-0.42,-0.22)</Normal_Average>
+                    <Normal_Wide>(-0.42,-0.22)</Normal_Wide>
+                    <Normal_Pointy>(-0.42,-0.22)</Normal_Pointy>
+                  </crownTypes>
+                </south>
+              </offsets>
+            </li>
+            
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
