@@ -286,6 +286,7 @@
       <makesFootprints>true</makesFootprints>
       <leatherDef>Leather_Bird</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
+      <lifeExpectancy>80</lifeExpectancy>
       <body>Ornithian</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>0.9</baseHealthScale>
