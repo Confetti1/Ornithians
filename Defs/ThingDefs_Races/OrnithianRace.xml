@@ -365,7 +365,7 @@
       </graphicPaths>
       
       <hairSettings>
-        <hasHair>False</hasHair>
+        <hasHair>True</hasHair>
         <hairTags>
           <li>Ornithian</li>
         </hairTags>
