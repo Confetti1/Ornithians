@@ -9,6 +9,22 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="BaseOrnithian">
+    <defName>OrnithianHatchling</defName>
+    <label>ornithian hatchling</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Ornithian</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+</Defs>
+  
+  <PawnKindDef ParentName="BaseOrnithian">
     <defName>OrnithianColonist</defName>
     <label>ornithian colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
