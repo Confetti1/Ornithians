@@ -480,7 +480,8 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <leatherDef>Leather_Bird</leatherDef>
-      <nameCategory>HumanStandard</nameCategory>
+      <nameGenerator>NamerPersonOrnithianMale</nameGenerator>
+      <nameGeneratorFemale>NamerPersonOrnithianFemale</nameGeneratorFemale>
       <lifeExpectancy>80</lifeExpectancy>
       <body>Ornithian</body>
       <baseBodySize>1</baseBodySize>
