@@ -170,6 +170,29 @@
                 </options>
               </first>
             </li>
+            <li>
+              <name>misc</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(227, 182, 203, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(64, 57, 50, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(173, 150, 101, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(204, 96, 96, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
           </colorChannels>
           <bodyAddons>
             <!-- ============================================== MISC COSMETIC ================================================== -->
@@ -184,7 +207,7 @@
               <alignWithHead>true</alignWithHead>
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>false</drawnDesiccated>
-              <colorChannel>eyes</colorChannel>
+              <colorChannel>misc</colorChannel>
               <offsets>
                 <south>
                   <crownTypes>
@@ -274,6 +297,11 @@
                   </crownTypes>
                 </east>
                 <west>
+                  <crownTypes>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
+                  </crownTypes>
                 </west>
               </offsets>
               <shaderType>Cutout</shaderType>
