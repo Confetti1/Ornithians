@@ -180,10 +180,6 @@
                   </li>
                   <li>
                     <weight>10</weight>
-                    <only>RGBA(64, 57, 50, 255)</only>
-                  </li>
-                  <li>
-                    <weight>10</weight>
                     <only>RGBA(173, 150, 101, 255)</only>
                   </li>
                   <li>
