@@ -49,4 +49,27 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="BaseOrnithian">
+    <defName>OrnithianTribal</defName>
+    <label>ornithian tribal</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>200~200</apparelMoney>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Ornithian</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+  </PawnKindDef>
 </Defs>
