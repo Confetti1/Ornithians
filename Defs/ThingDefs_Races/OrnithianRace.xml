@@ -394,6 +394,12 @@
       
       <raceRestriction>
       </raceRestriction>
+      
+      <compatibility>
+        <isFlesh>true</isFlesh>
+        <isSentient>true</isSentient>
+        <hasBlood>true</hasBlood>
+      </compatibility>
     </alienRace>
   
     <statBases>
@@ -452,6 +458,22 @@
         <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
       </li>
     </tools>
+    
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>2</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolAlpaca</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>100</woolAmount>
+      </li>
+    </comps>
+    
     <race>
       <thinkTreeMain>HumanlikeBird</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
@@ -509,10 +531,10 @@
       <ageGenerationCurve>
         <points>
           <li>(2,0)</li>
+          <li>(10,100)</li>
           <li>(20,100)</li>
           <li>(30,100)</li>
-          <li>(50,100)</li>
-          <li>(60,30)</li>
+          <li>(50,30)</li>
           <li>(70,18)</li>
           <li>(80,10)</li>
           <li>(90,3)</li>
@@ -535,20 +557,7 @@
       <li MayRequire="Ludeon.Rimworld.Royalty">CureAbasia</li>
     </recipes>
     
-    <comps>
-      <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>2</eggLayIntervalDays>
-        <eggCountRange>1</eggCountRange>
-      </li>
-      <li Class="CompProperties_Shearable">
-        <woolDef>WoolAlpaca</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>100</woolAmount>
-      </li>
-    </comps>
+    
     
     <modExtensions>
     </modExtensions>
