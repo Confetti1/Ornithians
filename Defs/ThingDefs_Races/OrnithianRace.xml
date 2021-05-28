@@ -197,7 +197,7 @@
           <bodyAddons>
             <!-- ============================================== MISC COSMETIC ================================================== -->
             <li>
-              <path>Ornithian/Misc/Misc</path>
+              <path>Ornithian/MiscAddon/misc</path>
               <layerOffset>0</layerOffset>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
