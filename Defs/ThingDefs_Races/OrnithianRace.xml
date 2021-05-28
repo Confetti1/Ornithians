@@ -462,6 +462,7 @@
     <comps>
       <li>
         <compClass>CompAttachBase</compClass>
+      </li>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
         <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
