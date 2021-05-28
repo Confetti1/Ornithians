@@ -542,6 +542,7 @@
         <eggLayIntervalDays>32</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.20</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
     </comps>
     
     <modExtensions>
