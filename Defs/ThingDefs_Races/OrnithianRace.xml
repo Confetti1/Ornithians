@@ -313,7 +313,7 @@
             </li>
             <!-- ================ BEAK ================== -->
             <li>
-              <path>Ornithian/Beaks/BasicBeak</path>
+              <path>Ornithian/Beaks/beak</path>
               <bodyPart>OrnithianBeak</bodyPart>
               <layerOffset>0.1</layerOffset>
               <inFrontOfBody>true</inFrontOfBody>
