@@ -30,7 +30,7 @@
         </include>
         <rulePack>
           <rulesStrings>
-            <li>r_name(p=2)->[Malefirst] [Last]</li>
+            <li>r_name(p=2)->[MaleFirst] [Last]</li>
           </rulesStrings>
         </rulePack>
     </RulePackDef>
