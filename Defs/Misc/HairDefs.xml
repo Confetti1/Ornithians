@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HairDef>
+    <defName>Bald</defName>
+    <label>bald</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Bald</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Brow</defName>
+    <label>brow</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Brow</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Littlefeathers</defName>
+    <label>little feathers</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Littlefeathers</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Quail</defName>
+    <label>quail</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Quail</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Veebird</defName>
+    <label>veebird</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Veebird</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+</Defs>
