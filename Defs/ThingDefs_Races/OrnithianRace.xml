@@ -453,7 +453,7 @@
       </li>
     </tools>
     <race>
-      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeMain>HumanlikeBird</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
