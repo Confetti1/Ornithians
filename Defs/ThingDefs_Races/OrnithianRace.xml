@@ -366,6 +366,7 @@
       
       <hairSettings>
         <hasHair>True</hasHair>
+        <getsGreyAt>70</getsGreyAt>
         <hairTags>
           <li>Ornithian</li>
         </hairTags>
