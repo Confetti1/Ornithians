@@ -22,7 +22,6 @@
       </li>
     </backstoryFiltersOverride>
   </PawnKindDef>
-</Defs>
   
   <PawnKindDef ParentName="BaseOrnithian">
     <defName>OrnithianColonist</defName>
