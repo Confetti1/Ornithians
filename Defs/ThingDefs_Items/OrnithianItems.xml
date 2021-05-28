@@ -5,13 +5,14 @@
     <label>ornitharian egg (unfert.)</label>
     <description>An unfertilized Ornitharian egg. It's not taboo to eat them when they're not fertilized.</description>
     <graphicData>
-      <texPath>Ornithians/OrnithianEgg</texPath>
+      <texPath>Item/OrnithianEgg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>20</MarketValue>
       <Nutrition>1</Nutrition>
     </statBases>
+    <stackLimit>10</stackLimit>
   </ThingDef>
   
   <ThingDef ParentName="EggFertBase">
@@ -19,13 +20,14 @@
     <label>ornitharian egg (fert.)</label>
     <description>A fertilized Ornitharian egg. Eating this would most be most offensive!</description>
     <graphicData>
-      <texPath>Ornithians/OrnithianEgg</texPath>
+      <texPath>Item/OrnithianEgg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>300</MarketValue>
       <Nutrition>1</Nutrition>
     </statBases>
+    <stackLimit>1</stackLimit>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
