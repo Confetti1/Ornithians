@@ -219,6 +219,11 @@
                 <north>
                 </north>
                 <east>
+                  <crownTypes>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
+                  </crownTypes>
                 </east>
                 <west>
                   <crownTypes>
