@@ -172,6 +172,41 @@
             </li>
           </colorChannels>
           <bodyAddons>
+            <!-- ============================================== MISC COSMETIC ================================================== -->
+            <li>
+              <path>Ornithian/Misc/Misc</path>
+              <layerOffset>0</layerOffset>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <drawSize>(1, 1)</drawSize>
+              <drawSizePortrait>(1, 1)</drawSizePortrait>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <alignWithHead>true</alignWithHead>
+              <drawnInBed>true</drawnInBed>
+              <drawnDesiccated>false</drawnDesiccated>
+              <colorChannel>eyes</colorChannel>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                </east>
+                <west>
+                  <crownTypes>
+                    <Average_Normal>(-0.42,0.22)</Average_Normal>
+                    <Average_Wide>(-0.42,0.22)</Average_Wide>
+                    <Average_Pointy>(-0.42,0.22)</Average_Pointy>
+                  </crownTypes>
+                </west>
+              </offsets>
+            </li>
+            
             <!-- ================ LEFT EYE ================== -->
             <li>
               <path>Ornithian/Eyes/EyeLeft</path>
