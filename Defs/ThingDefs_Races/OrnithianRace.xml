@@ -537,7 +537,7 @@
     
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggCassowaryFertilized</eggFertilizedDef>
+        <eggFertilizedDef>EggOrnithianFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>32</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.20</eggProgressUnfertilizedMax>
