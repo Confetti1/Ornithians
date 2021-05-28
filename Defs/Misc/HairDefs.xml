@@ -49,4 +49,24 @@
       <li>Ornithian</li>
     </hairTags>
   </HairDef>
+  
+  <HairDef>
+    <defName>Bluejay</defName>
+    <label>bluejay</label>
+    <hairGender>Any</hairGender>
+    <texPath>Ornithian/Hairs/Bluejay</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Cockatiel</defName>
+    <label>cockatiel</label>
+    <hairGender>Any</hairGender>
+    <texPath>Ornithian/Hairs/Cockatiel</texPath>
+    <hairTags>
+      <li>Ornithian</li>
+    </hairTags>
+  </HairDef>
 </Defs>
