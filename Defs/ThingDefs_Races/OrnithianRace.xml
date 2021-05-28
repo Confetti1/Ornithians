@@ -495,7 +495,7 @@
         </li>
         <li>
           <def>HumanlikeAdult</def>
-          <minAge>18</minAge>
+          <minAge>3</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -537,12 +537,16 @@
     
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggOrnithianFertilized</eggFertilizedDef>
-        <eggUnfertilizedDef>EggOrnithianUnfertilized</eggUnfertilizedDef>
+        <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>32</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.20</eggProgressUnfertilizedMax>
+        <eggLayIntervalDays>2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolAlpaca</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>100</woolAmount>
       </li>
     </comps>
     
