@@ -234,7 +234,7 @@
             <li>
               <path>Ornithian/Eyes/EyeLeft</path>
               <bodyPart>left eye</bodyPart>
-              <layerOffset>0</layerOffset>
+              <layerOffset>0.1</layerOffset>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <drawSize>(1, 1)</drawSize>
@@ -269,7 +269,7 @@
             <li>
               <path>Ornithian/Eyes/EyeRight</path>
               <bodyPart>right eye</bodyPart>
-              <layerOffset>0</layerOffset>
+              <layerOffset>0.1</layerOffset>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <drawSize>(1, 1)</drawSize>
@@ -310,7 +310,7 @@
             <li>
               <path>Ornithian/Beaks/BasicBeak</path>
               <bodyPart>OrnithianBeak</bodyPart>
-              <layerOffset>0</layerOffset>
+              <layerOffset>0.1</layerOffset>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <drawSize>(1, 1)</drawSize>
