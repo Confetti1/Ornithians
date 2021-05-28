@@ -186,6 +186,14 @@
                     <weight>10</weight>
                     <only>RGBA(204, 96, 96, 255)</only>
                   </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(232, 225, 174, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(255, 225, 255, 255)</only>
+                  </li>
                 </options>
               </first>
             </li>
@@ -528,6 +536,12 @@
     </recipes>
     
     <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggCassowaryFertilized</eggFerilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>32</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.20</eggProgressUnfertilizedMax>
+        <eggCountRange>1</eggCountRange>
     </comps>
     
     <modExtensions>
