@@ -14,7 +14,7 @@
     <defName>Brow</defName>
     <label>brow</label>
     <hairGender>Any</hairGender>
-    <texPath>Ornithian/Hairs/Bald</texPath>
+    <texPath>Ornithian/Hairs/Brow</texPath>
     <hairTags>
       <li>Ornithian</li>
     </hairTags>
@@ -24,7 +24,7 @@
     <defName>Littlefeathers</defName>
     <label>little feathers</label>
     <hairGender>Any</hairGender>
-    <texPath>Ornithian/Hairs/Bald</texPath>
+    <texPath>Ornithian/Hairs/Littlefeathers</texPath>
     <hairTags>
       <li>Ornithian</li>
     </hairTags>
@@ -34,7 +34,7 @@
     <defName>Quail</defName>
     <label>quail</label>
     <hairGender>Any</hairGender>
-    <texPath>Ornithian/Hairs/Bald</texPath>
+    <texPath>Ornithian/Hairs/Quail</texPath>
     <hairTags>
       <li>Ornithian</li>
     </hairTags>
@@ -44,7 +44,7 @@
     <defName>Veebird</defName>
     <label>veebird</label>
     <hairGender>Any</hairGender>
-    <texPath>Ornithian/Hairs/Bald</texPath>
+    <texPath>Ornithian/Hairs/Veebird</texPath>
     <hairTags>
       <li>Ornithian</li>
     </hairTags>
