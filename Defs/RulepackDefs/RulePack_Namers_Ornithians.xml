@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- First lets set up our file references for all our syllables and surnames. First names are sort of complicated, so we define them here. Thanks FantasyNameGenerator.com! -->
+  <RulePackDef>
+    <defName>NamerOrnithianUtility</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>MaleFirst->[Syl1][Syl2][Syl3]</li>
+        <li>MaleFirst->[Syl1][Syl2][Syl3][Syl4]</li>
+        <li>MaleFirst->[Syl1][Syl4]</li>
+        <li>FemaleFirst->[Syl1][Syl2][Syl3]</li>
+        <li>FemaleFirst->[Syl1][Syl2][Syl3][Syl4]</li>
+        <li>FemaleFirst->[Syl1][Syl4]</li>
+        <li>Last->[Syl1][Syl2][Syl3]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>Syl1->WordParts/OrnithianSyl1</li>
+        <li>Syl2->WordParts/OrnithianSyl2</li>
+        <li>Syl3->WordParts/OrnithianSyl3</li>
+        <li>Syl4->WordParts/OrnithianSyl4</li>
+      </rulesFiles>
+    </rulePack>
+    </RulePackDef>
+
+    
+    <RulePackDef>
+      <defName>NamerPersonOrnithianMale</defName>
+        <include>
+          <li>NamerOrnithianUtility</li>
+        </include>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name(p=2)->[Malefirst] [Last]</li>
+          </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+            
+    <RulePackDef>
+        <defName>NamerPersonOrnithianFemale</defName>
+        <include>
+            <li>NamerOrnithianUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[FemaleFirst] [Last]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    <!--
+    <RulePackDef>
+        <defName>NamerFactionDwarf</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=2)->[DwarfFaction]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    
+    <RulePackDef>
+        <defName>NamerSettlementDwarf</defName>
+        <include>
+            <li>NamerDwarfUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name(p=1)->[DwarfSettlement]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+-->
+</Defs>
