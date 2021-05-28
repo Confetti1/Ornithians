@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggOrnithianUnfertilized</defName>
+    <label>ornitharian egg (unfert.)</label>
+    <description>An unfertilized Ornitharian egg. It's not taboo to eat them when they're not fertilized.</description>
+    <graphicData>
+      <texPath>Ornithians/OrnithianEgg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>20</MarketValue>
+      <Nutrition>1</Nutrition>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggOrnithianFertilized</defName>
+    <label>ornitharian egg (fert.)</label>
+    <description>A fertilized Ornitharian egg. Eating this would most be most offensive!</description>
+    <graphicData>
+      <texPath>Ornithians/OrnithianEgg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>OrnithianHatchling</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
