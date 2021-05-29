@@ -464,16 +464,11 @@
         <compClass>CompAttachBase</compClass>
       </li>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>EggOrnithianUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>EggOrnithianFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>2</eggLayIntervalDays>
+        <eggLayIntervalDays>32</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
-      </li>
-      <li Class="CompProperties_Shearable">
-        <woolDef>WoolAlpaca</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>100</woolAmount>
       </li>
     </comps>
     
@@ -504,23 +499,15 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>HumanlikeBaby</def>
+          <def>AnimalBabyTiny</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>HumanlikeToddler</def>
+          <def>AnimalJuvenile</def>
           <minAge>0.5</minAge>
         </li>
         <li>
-          <def>HumanlikeChild</def>
-          <minAge>1.2</minAge>
-        </li>
-        <li>
-          <def>HumanlikeTeenager</def>
-          <minAge>2</minAge>
-        </li>
-        <li>
-          <def>HumanlikeAdult</def>
+          <def>AnimalAdult</def>
           <minAge>3</minAge>
         </li>
       </lifeStageAges>
