@@ -377,6 +377,12 @@
       </hairSettings>
       
       <thoughtSettings>
+        <replacerList>
+          <li>
+            <original>Aurora</original>
+            <replacer>HeavenlyAncestors</replacer>
+          </li>
+        </replacerList>
       </thoughtSettings>
       
       <relationSettings>
