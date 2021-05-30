@@ -254,6 +254,53 @@
     </workDisables>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>AnimalFriend</defName>
+    <title>Animal Friend</title>
+    <titleShort>Animal Friend</titleShort>
+    <baseDescription>[PAWN_nameDef] would sneak off to the animal pen to play with the Kneaderpillars. [PAWN_pronoun] developed a natural instinct when dealing with animals.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>FeatherguardShadow</defName>
+    <title>Featherguard Shadow</title>
+    <titleShort>Shadow</titleShort>
+    <baseDescription>[PAWN_nameDef] always thought that the Featherguard were the coolest. [PAWN_pronoun] would follow around any Featherguard who was patient enough to deal with [PAWN_objective]. [PAWN_pronoun] would follow their patrols and even mimic their training routines.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  
   <!-- =================================================== CLAN ADULTHOODS ====================================================== -->
   <AlienRace.BackstoryDef>
     <defName>OrnithianFarmer</defName>
@@ -418,6 +465,256 @@
         <amount>2</amount>
       </li>
     </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Herbfeather</defName>
+    <title>Herbfeather</title>
+    <titleShort>Herbfeather</titleShort>
+    <baseDescription>It was [PAWN_nameDef]'s job to make sure that the clan was healthy. [PAWN_pronoun] managed small herb gardens in order to produce valuable medicine.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <bioAgeRange>
+			<min>20</min>
+		</bioAgeRange>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>NestBuilder</defName>
+    <title>Nest Builder</title>
+    <titleShort>Builder</titleShort>
+    <baseDescription>[PAWN_nameDef] found it satisfying to interlock branches into sturdy structures. [PAWN_pronoun] made this into [PAWN_possessive] job, providing safe places for [PAWN_possessive] clanmates to stay.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Rockscratcher</defName>
+    <title>Rockscratcher</title>
+    <titleShort>Rockscratcher</titleShort>
+    <baseDescription>[PAWN_nameDef] stumbled upon a shiny stone among rocks one day, and upon digging further [PAWN_pronoun] found even more! [PAWN_pronoun] chased this new obsession, turning it into something beneficial for the clan.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>WeaponCrafter</defName>
+    <title>Weapon Crafter</title>
+    <titleShort>Weaponsmith</titleShort>
+    <baseDescription>[PAWN_nameDef] worked with the sturdiest materials to craft reliable weapons for [PAWN_possessive] clanmates. [PAWN_nameDef] knew that these weapons had to be as tuned and durable as possible to keep [PAWN_possessive] clanmates alive.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <bioAgeRange>
+			<min>15</min>
+		</bioAgeRange>
+  </AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>FeatherguardHealer</defName>
+    <title>Featherguard Healer</title>
+    <titleShort>Featherguard</titleShort>
+    <baseDescription>[PAWN_nameDef] knew that protecting [PAWN_possessive] clanmates would require more than fighting away intruders. [PAWN_pronoun] trained with an Herbfeather to make sure that [PAWN_pronoun] knew how to save the lives of injured clanmates in an emergency.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <bioAgeRange>
+			<min>15</min>
+		</bioAgeRange>
+  </AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Hunter</defName>
+    <title>Hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>Sometimes farming wasn't enough to provide food for the clan, and [PAWN_nameDef] knew this. [PAWN_pronoun] spent much of [PAWN_possessive] time away from the clan, hunting down creatures that could feed the ones [PAWN_pronoun] loved.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <bioAgeRange>
+			<min>20</min>
+		</bioAgeRange>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HardWorker</defName>
+    <title>Hard Worker</title>
+    <titleShort>Worker</titleShort>
+    <baseDescription>[PAWN_nameDef]'s claws were needed for all kinds of menial tasks throughout the clan. [PAWN_pronoun] would help almost everything there was to do.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>1</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Freefeather</defName>
+    <title>Freefeather</title>
+    <titleShort>Freefeather</titleShort>
+    <baseDescription>[PAWN_nameDef] refused to accept a standard job, preferring to follow [PAWN_possessive] whims. Unfortunately for the clan, those whims never included particularly hard work. </baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>1</degree>
+        <chance>60</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>1</degree>
+      </li>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>2</degree>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
   <!--
   <AlienRace.BackstoryDef>
