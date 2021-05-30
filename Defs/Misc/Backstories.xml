@@ -209,7 +209,7 @@
     <defName>ChippedEgg</defName>
     <title>Chipped Egg</title>
     <titleShort>Chipped</titleShort>
-    <baseDescription>Before [PAWN_nameDef] even had a chance to develop, [PAWN_possessive] egg was chipped slightly. This allowed bacteria to get inside, which left [PAWN_possessive] ravaged. [PAWN_pronoun] fought against all odds, and shone through [PANW_possessive] deformities.</baseDescription>
+    <baseDescription>Before [PAWN_nameDef] even had a chance to develop, [PAWN_possessive] egg was chipped slightly. This allowed bacteria to get inside, which left [PAWN_possessive] ravaged. [PAWN_pronoun] fought against all odds, and shone through [PAWN_possessive] deformities.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <spawnCategories>
