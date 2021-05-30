@@ -375,7 +375,7 @@
           <li>Ornithian</li>
         </hairTags>
       </hairSettings>
-      
+      <!--
       <thoughtSettings>
         <replacerList>
           <li>
@@ -384,7 +384,7 @@
           </li>
         </replacerList>
       </thoughtSettings>
-      
+      -->
       <relationSettings>
         <relationChanceModifierLover>1</relationChanceModifierLover>
         <relationChanceModifierExLover>1</relationChanceModifierExLover>
