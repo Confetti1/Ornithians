@@ -1,18 +1,18 @@
 TO DO:
 Race Details: Live about as long as humans.
-  -Weaker bones, so slightly less health. Their light bones gives them superior movement speed. 
-  -Procreate via eggs. (try to make it so they get sad if you eat fertilized ones) Make sure that it takes a long time for eggs to be produced.
-  -Mature quickly (A few years) in order to get children to adults fast.
-  -Talons and beak do poke damage
-  -Generally do better in hot environments than average, and do pretty normal in cold ones. 
+  -!Weaker bones, so slightly less health. Their light bones gives them superior movement speed. 
+  -!Procreate via eggs. (try to make it so they get sad if you eat fertilized ones) Make sure that it takes a long time for eggs to be produced.
+  -!Mature quickly (A few years) in order to get children to adults fast.
+  -!Talons and beak do poke damage
+  -!Generally do better in hot environments than average, and do pretty normal in cold ones. 
   -Detail their societal structure, figure out backstories based on it. 
 Custom head and body graphics
   -Custom hair, plumage that fits right into head (unless male, perhaps has more colorful plumage?)
-  -Add cheek body part so that some different colors can be present on the face. 
-  -Add beak body part on top of cheeks to prevent overlap
-  -Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
+  -!Add cheek body part so that some different colors can be present on the face. 
+  -!Add beak body part on top of cheeks to prevent overlap
+  -!Add eyes as individual body parts so they can have different colors, plus make them disappear if character is missing an eye.
 Custom body setup
-  -Beak, tail feathers, talons, crop?
+  -!Beak, tail feathers, !talons
 New social interactions
   -Preening?
 Backstory ideas (Have multiple backstories for each bird type so that there's some good options, these are just what the base beak types give)
@@ -21,6 +21,8 @@ Backstory ideas (Have multiple backstories for each bird type so that there's so
   -Parrot: Higher social and crafting. Perhaps higher intellectual.
   -Nester: Cooking and Medical
   -Separate backstories for refugees and/or starting colonists. 
+  
+
 
 Possible Ornithian subspecies:
   -Corvians: Raven-themed folks who have no qualms with eating rotten corpses. Higher social and intellectual. (OR make the rotten food eating a trait, and force it for Corvid beak type!!)
@@ -44,3 +46,8 @@ New building material/wall types
   
 New Weapons/Equipment
   -Feathergun: Gun that does minimal damage, but has very fast rate of fire. 
+
+
+Clan Lore:
+Nesters: Ones who take care of the eggs and the hatchlings. They are typically females, but sometimes males take the role.
+StargazerS: Those who study the stars and gain inspiration from them. They invent unique things under the guidance of their ancestors in the sky. 
