@@ -2,7 +2,6 @@
 <Defs>
   <ThoughtDef>
     <defName>HeavenlyAncestors</defName>
-    <workerClass>ThoughtWorker_Aurora</workerClass>
     <durationDays>1</durationDays>
     <gameCondition>Aurora</gameCondition>
     <stages>
