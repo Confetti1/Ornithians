@@ -56,7 +56,7 @@
     <defaultFactionType>PlayerColony</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
-      <li>IndustrialBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>200~200</apparelMoney>
     <backstoryFiltersOverride>
