@@ -29,7 +29,7 @@
     <stackLimit>1</stackLimit>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherDaystoHatch>32</hatcherDaystoHatch>
         <hatcherPawn>OrnithianHatchling</hatcherPawn>
       </li>
     </comps>
