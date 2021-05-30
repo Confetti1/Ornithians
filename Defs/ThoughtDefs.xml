@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>HeavenlyAncestors</defName>
+    <workerClass>ThoughtWorker_Aurora</workerClass>
+    <durationDays>1<durationDays>
+    <gameCondition>Aurora</gameCondition>
+    <stages>
+      <li>
+        <label>ancestors smiling upon us</label>
+        <description>Our ancestors in the stars gleam down on me, telling me that everything will be okay...</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+</Defs>
