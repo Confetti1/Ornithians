@@ -69,7 +69,7 @@
     <title>Burned</title>
     <titleShort>Burned</titleShort>
     <baseDescription>[PAWN_nameDef] wanted to help the Nesters with cooking so badly that [PAWN_pronoun] tried to without asking first. [PAWN_pronoun] ended up searing away some of [PAWN_possessive] feathers in an open flame, and gained a fear of anything relating to fire.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -175,7 +175,7 @@
     <title>Creative Hatchling</title>
     <titleShort>Creative</titleShort>
     <baseDescription>[PAWN_nameDef] found [PAWN_possessive] own ways to have fun. [PAWN_pronoun] would create [PAWN_possessive] own toys and weapons, then let [PAWN_possessive] imagination run free.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
@@ -210,7 +210,7 @@
     <title>Chipped Egg</title>
     <titleShort>Chipped</titleShort>
     <baseDescription>Before [PAWN_nameDef] even had a chance to develop, [PAWN_possessive] egg was chipped slightly. This allowed bacteria to get inside, which left [PAWN_possessive] ravaged. [PAWN_pronoun] fought against all odds, and shone through [PANW_possessive] deformities.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <spawnCategories>
       <li>Ornithian</li>
@@ -444,7 +444,7 @@
     <title>Hesitant Featherguard</title>
     <titleShort>Featherguard</titleShort>
     <baseDescription>[PAWN_nameDef] never wanted to be a Featherguard, but [PAWN_nameDef] was growing up in a time when the clan was under pressure. Out of loyalty to the clan, [PAWN_pronoun] became a featherguard, despite not truly wanting to be one.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -472,7 +472,7 @@
     <title>Herbfeather</title>
     <titleShort>Herbfeather</titleShort>
     <baseDescription>It was [PAWN_nameDef]'s job to make sure that the clan was healthy. [PAWN_pronoun] managed small herb gardens in order to produce valuable medicine.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -549,7 +549,7 @@
     <title>Weapon Crafter</title>
     <titleShort>Weaponsmith</titleShort>
     <baseDescription>[PAWN_nameDef] worked with the sturdiest materials to craft reliable weapons for [PAWN_possessive] clanmates. [PAWN_nameDef] knew that these weapons had to be as tuned and durable as possible to keep [PAWN_possessive] clanmates alive.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -580,7 +580,7 @@
     <title>Featherguard Healer</title>
     <titleShort>Featherguard</titleShort>
     <baseDescription>[PAWN_nameDef] knew that protecting [PAWN_possessive] clanmates would require more than fighting away intruders. [PAWN_pronoun] trained with an Herbfeather to make sure that [PAWN_pronoun] knew how to save the lives of injured clanmates in an emergency.</baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -678,7 +678,7 @@
     <title>Freefeather</title>
     <titleShort>Freefeather</titleShort>
     <baseDescription>[PAWN_nameDef] refused to accept a standard job, preferring to follow [PAWN_possessive] whims. Unfortunately for the clan, those whims never included particularly hard work. </baseDescription>
-    <slot>Childhood/Adulthood</slot>
+    <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
