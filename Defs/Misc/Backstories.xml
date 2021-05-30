@@ -235,7 +235,8 @@
     </skillGains>
     <forcedTraits>
       <li>
-        <defName>Sickly</defName>
+        <defName>Immunity</defName>
+        <degree>-1</degree>
         <chance>70</chance>
       </li>
       <li>
