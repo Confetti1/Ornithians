@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- ============================================================== CHILDHOODS ===================================================================== -->
+  <!-- ============================================================== CLAN CHILDHOODS ===================================================================== -->
   <AlienRace.BackstoryDef>
     <defName>CuriousHatchling</defName>
     <title>Curious Hatchling</title>
@@ -42,7 +42,219 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   
-  <!-- =================================================== ADULTHOODS ====================================================== -->
+  <AlienRace.BackstoryDef>
+    <defName>Bowlscratcher</defName>
+    <title>Bowl Scratcher</title>
+    <titleShort>Bowlscratcher</titleShort>
+    <baseDescription>[PAWN_nameDef] was an aid to the Nesters as a small hatchling. [PAWN_pronoun] gained the joking title "bowlscratcher", as [PAWN_pronoun] would use [PAWN_possessive] to scrape away at stains in the bowls [PAWN_pronoun] was tasked with cleaning.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Burned</defName>
+    <title>Burned</title>
+    <titleShort>Burned</titleShort>
+    <baseDescription>[PAWN_nameDef] wanted to help the Nesters with cooking so badly that [PAWN_pronoun] tried to without asking first. [PAWN_pronoun] ended up searing away some of [PAWN_possessive] feathers in an open flame, and gained a fear of anything relating to fire.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>-1</degree>
+        <chance>20</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Cooking</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <disallowedTraits>
+      <li>
+        <defName>Pyromaniac</defName>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>StarPeeker</defName>
+    <title>Star Peeker</title>
+    <titleShort>Peeker</titleShort>
+    <baseDescription>[PAWN_nameDef] hatched out of [PAWN_possessive] shell under a night of twinkling stars. [PAWN_pronoun] was entranced then, and has since then continued [PAWN_possessive] study of them with the Stargazers.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>NightOwl</defName>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+        <chance>25</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li></li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Rambunctious</defName>
+    <title>Rambunctious</title>
+    <titleShort>Rambunctious</titleShort>
+    <baseDescription>[PAWN_nameDef] was eager to prove [PAWN_possessive]'s strength over [PAWN_possessive] hatchmates, and would do so constantly. It was all in good fun, although many of [PAWN_possessive] hatchmates didn't see it that way.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>CreativeHatchling</defName>
+    <title>Creative Hatchling</title>
+    <titleShort>Creative</titleShort>
+    <baseDescription>[PAWN_nameDef] found [PAWN_possessive] own ways to have fun. [PAWN_pronoun] would create [PAWN_possessive] own toys and weapons, then let [PAWN_possessive] imagination run free.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>1</degree>
+        <chance>75</chance>
+      </li>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>2</degree>
+        <chance>25</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>ChippedEgg</defName>
+    <title>Chipped Egg</title>
+    <titleShort>Chipped</titleShort>
+    <baseDescription>Before [PAWN_nameDef] even had a chance to develop, [PAWN_possessive] egg was chipped slightly. This allowed bacteria to get inside, which left [PAWN_possessive] ravaged. [PAWN_pronoun] fought against all odds, and shone through [PANW_possessive] deformities.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Sickly</defName>
+        <chance>70</chance>
+      </li>
+      <li>
+        <defName>Wimp</defName>
+        <chance>70</chance>
+      </li>
+      <li>
+        <defName>SpeedOffset</defName>
+        <degree>-1</degree>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Violent</li>
+      <li>Hauling</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
+  <!-- =================================================== CLAN ADULTHOODS ====================================================== -->
   <AlienRace.BackstoryDef>
     <defName>OrnithianFarmer</defName>
     <title>Ornithian Farmer</title>
@@ -70,6 +282,143 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>Stargazer</defName>
+    <title>Stargazer</title>
+    <titleShort>Stargazer</titleShort>
+    <baseDescription>[PAWN_nameDef]'s obsession with the stars never dwindled, in fact it continued to grow. Before long, [PAWN_pronoun] was named an official stargazer. [PAWN_pronoun] would spend [PAWN_possessive] time being awake at night, studying the stars and applying the gained inspiration to [PAWN_possessive] research.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <linkedBackstory>StarPeeker</linkedBackstory>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>NightOwl</defName>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+    </disallowedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <bioAgeRange>
+			<min>40</min>
+		</bioAgeRange>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Nester</defName>
+    <title>Nester</title>
+    <titleShort>Nester</titleShort>
+    <baseDescription>[PAWN_nameDef] grew to enjoy the company of hatchlings, and decided to become a nester. [PAWN_pronoun] would watch over the eggs and cook food for the hatchlings. [PAWN_pronoun] would help the other nesters expand the nest whenever it grew too cramped.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>0</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>QuickSleeper</defName>
+        <chance>30</chance>
+      </li>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>1</degree>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonalty>100</femaleCommonality>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>EagerFeatherguard</defName>
+    <title>Eager Featherguard</title>
+    <titleShort>Featherguard</titleShort>
+    <baseDescription>[PAWN_nameDef] was eager to become a Featherguard as soon as possible, and trained with great vigor to do so. [PAWN_pronoun] has always been eager to protect the ones [PAWN_pronoun] loves.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>1</degree>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>-2</degree>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>HesitantFeatherguard</defName>
+    <title>Hesitant Featherguard</title>
+    <titleShort>Featherguard</titleShort>
+    <baseDescription>[PAWN_nameDef] never wanted to be a Featherguard, but [PAWN_nameDef] was growing up in a time when the clan was under pressure. Out of loyalty to the clan, [PAWN_pronoun] became a featherguard, despite not truly wanting to be one.</baseDescription>
+    <slot>Childhood/Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
   <!--
   <AlienRace.BackstoryDef>
     <defName>Example</defName>
