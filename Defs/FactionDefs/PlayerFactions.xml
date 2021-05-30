@@ -15,7 +15,6 @@
     <isPlayer>true</isPlayer>
     <pawnSingular>Ornithian</pawnSingular>
     <pawnsPlural>Ornithians</pawnsPlural>
-    <basicMemberKind>Ornithian</basicMemberKind>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
       <li>
