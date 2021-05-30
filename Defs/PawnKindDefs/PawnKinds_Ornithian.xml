@@ -52,8 +52,8 @@
   
   <PawnKindDef ParentName="BaseOrnithian">
     <defName>OrnithianTribal</defName>
-    <label>ornithian tribal</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
+    <label>ornithian clan member</label>
+    <defaultFactionType>PlayerClan</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>Neolithic</li>
