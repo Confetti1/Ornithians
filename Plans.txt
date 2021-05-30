@@ -51,3 +51,4 @@ New Weapons/Equipment
 Clan Lore:
 Nesters: Ones who take care of the eggs and the hatchlings. They are typically females, but sometimes males take the role.
 StargazerS: Those who study the stars and gain inspiration from them. They invent unique things under the guidance of their ancestors in the sky. 
+Featherguard: those tasked with protecting the clan.
