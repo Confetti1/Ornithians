@@ -16,7 +16,7 @@
   
   <ThingDef ParentName="EggFertBase">
     <defName>EggOrnithianFertilized</defName>
-    <label>ornitharian egg (fert.)</label>
+    <label>ornithian egg (fert.)</label>
     <description>A fertilized Ornithian egg. Eating this would most be most offensive!</description>
     <graphicData>
       <texPath>Item/OrnithianEgg</texPath>
