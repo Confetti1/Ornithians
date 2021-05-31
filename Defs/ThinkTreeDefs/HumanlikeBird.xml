@@ -20,6 +20,9 @@
             </li>
           </subNodes>
         </li>
+        
+        <!-- EGG LAY -->
+        <li Class="JobGiver_LayEgg" />
             
         <!-- If we HAVE to keep lying down... -->
         <li Class="ThinkNode_ConditionalMustKeepLyingDown">
@@ -376,8 +379,7 @@
           </subNodes>
         </li>
         
-        <!-- EGG LAY -->
-        <li Class="JobGiver_LayEgg" />
+
 
         <!-- If you're a neutral guest, if you're not hurt exit the map, otherwise use a medical bed -->
         <li Class="ThinkNode_ConditionalGuest">
