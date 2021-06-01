@@ -178,7 +178,7 @@
     <itemQuality>Normal</itemQuality>
     <gearHealthRange>0.2~1.1</gearHealthRange>
     <apparelMoney>100~200</apparelMoney>
-    <weaponMoney>100~100</weaponMoney>
+    <weaponMoney>200~300</weaponMoney>
     <weaponTags>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
@@ -220,7 +220,6 @@
   <!-- ==== LEADER ==== -->
   <PawnKindDef ParentName="ClanOrnithian" Name="ClanOrnithianLeaderBase" Abstract="True">
     <combatPower>100</combatPower>
-    <baseRecruitmentDifficulty>0.90</baseRecruitmentDifficulty>
     <minGenerationAge>30</minGenerationAge>
     <maxGenerationAge>99</maxGenerationAge>
     <backstoryFiltersOverride>
