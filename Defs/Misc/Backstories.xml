@@ -301,8 +301,86 @@
     </skillGains>
   </AlienRace.BackstoryDef>
   
+  <AlienRace.BackstoryDef>
+    <defName>Reckless</defName>
+    <title>Reckless</title>
+    <titleShort>Reckless</titleShort>
+    <baseDescription>[PAWN_nameDef] had a habit of poking [PAWN_possessive] where it didn't belong. This usually ended up causing [PAWN_possessive] to be chased by animals, trapped under rocks, or all other kinds of unfortunate situations. Needless to say, [PAWN_possessive] spent a lot of time in an Herbfeather's tent.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>GroundPecker</defName>
+    <title>Groundpecker</title>
+    <titleShort>Groundpecker</titleShort>
+    <baseDescription>[PAWN_nameDef] was content with pecking seeds and bugs off the ground. Even as a hatchling [PAWN_pronoun] experimented with different combinations of snacks.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>Songbird</defName>
+    <title>Songbird</title>
+    <titleShort>Songbird</titleShort>
+    <baseDescription>[PAWN_nameDef] came out of [PAWN_possessive] egg with a song to share to the world. [PAWN_pronoun] could whistle it before [PAWN_pronoun] learned to speak. Thankfully for [PAWN_possessive] Nesters, the song sounded very nice.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>AnnoyingVoice</defName>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+  
   
   <!-- =================================================== CLAN ADULTHOODS ====================================================== -->
+  
+  
+  
   <AlienRace.BackstoryDef>
     <defName>OrnithianFarmer</defName>
     <title>Ornithian Farmer</title>
