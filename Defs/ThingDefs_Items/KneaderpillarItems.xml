@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Kneaderpillar_Skin</defName>
+    <label>kneaderpillar skin</label>
+    <description>The smooth, membrane-like skin of a kneaderpillar. It's not very effective against cold weather, but it's slight sliminess helps prevent heatstroke.</description>
+    <graphicData>
+      <color>(206,217,178)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(206,217,178)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+    
+</Defs>
