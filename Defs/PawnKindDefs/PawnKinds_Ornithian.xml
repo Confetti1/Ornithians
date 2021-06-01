@@ -98,5 +98,152 @@
   
   <!-- ==================================================      ORNITHIAN CLAN PAWNS      ================================================ 
 -->
-  <PawnKindDef Name="BaseOrnithian" Abstract="True>
+  <PawnKindDef Name="ClanOrnithian" Abstract="True">
+    <race>Ornithian</race>
+    <defaultFactionType>PeacefulOrnithians</defaultFactionType>
+    <maxGenerationAge>70</maxGenerationAge>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+  </PawnKindDef>
+  <!-- ===== Villager ===== -->
+  <PawnKindDef ParentName="ClanOrnithian">
+    <defName>Ornithian_Villager</defName>
+    <label>ornithian villager</label>
+    <combatPower>30</combatPower>
+    <backstoryFiltersOverride>
+        <li>
+          <categories>
+            <li>Ornithian</li>
+          </categories>
+        </li>
+      </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>50~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <!-- ==== RANGER ==== -->
+  <PawnKindDef ParentName="ClanOrnithian">
+    <defName>Ornithian_Ranger</defName>
+    <label>ornithian hunter</label>
+    <combatPower>30</combatPower>
+    <backstoryFiltersOverride>
+        <li>
+          <categories>
+            <li>Ornithian</li>
+          </categories>
+        </li>
+      </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>100~200</apparelMoney>
+    <weaponMoney>50~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <!-- ==== WARRIOR ==== -->
+  <PawnKindDef ParentName="ClanOrnithian">
+    <defName>Ornithian_Warrior</defName>
+    <label>ornithian warrior</label>
+    <combatPower>30</combatPower>
+    <backstoryFiltersOverride>
+        <li>
+          <categories>
+            <li>Ornithian</li>
+          </categories>
+        </li>
+      </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>100~200</apparelMoney>
+    <weaponMoney>100~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <!-- ==== TRADER ==== -->
+  <PawnKindDef ParentName="ClanOrnithian">
+    <defName>Ornithian_Trader</defName>
+    <label>ornithian trader</label>
+    <combatPower>30</combatPower>
+    <backstoryFiltersOverride>
+        <li>
+          <categories>
+            <li>Ornithian</li>
+          </categories>
+        </li>
+      </backstoryFiltersOverride>
+    <invNutrition>0</invNutrition>
+    <trader>true</trader>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>50~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+  </PawnKindDef>
+  
+  <!-- ==== LEADER ==== -->
+  <PawnKindDef ParentName="ClanOrnithian" Name="ClanOrnithianLeaderBase" Abstract="True">
+    <combatPower>100</combatPower>
+    <baseRecruitmentDifficulty>0.90</baseRecruitmentDifficulty>
+    <minGenerationAge>30</minGenerationAge>
+    <maxGenerationAge>99</maxGenerationAge>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Ornithian</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <itemQuality>Normal</itemQuality>
+    <factionLeader>true</factionLeader>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <weaponMoney>200~300</weaponMoney>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ClanOrnithianLeaderBase">
+    <defName>Ornithian_Leader</defName>
+    <label>Ornithian Leader</label>
+    <weaponTags>
+      <li>MedievalRangedAdvanced</li>
+    </weaponTags>
+  </PawnKindDef>                                  
 </Defs>
