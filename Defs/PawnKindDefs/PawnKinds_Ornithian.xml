@@ -95,4 +95,8 @@
       <li>Poor</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <!-- ==================================================      ORNITHIAN CLAN PAWNS      ================================================ 
+-->
+  <PawnKindDef Name="BaseOrnithian" Abstract="True>
 </Defs>
