@@ -81,7 +81,7 @@
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Keaderpillar</defName>
+    <defName>Kneaderpillar</defName>
     <label>kneaderpillar</label>
     <race>Kneaderpillar</race>
     <combatPower>60</combatPower>
