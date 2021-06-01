@@ -21,6 +21,29 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
+    <lifeStages>
+      <li>
+        <label>baby</label>
+        <labelPlural>babies</labelPlural>
+        <bodyGraphicData>
+          <drawSize>0.5</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <label>juvenile</label>
+        <labelPlural>juveniles</labelPlural>
+        <bodyGraphicData>
+          <drawSize>0.8</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <label>adult</label>
+        <labelPlural>adult</labelPlural>
+        <bodyGraphicData>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
   </PawnKindDef>
   
   <PawnKindDef ParentName="BaseOrnithian">
