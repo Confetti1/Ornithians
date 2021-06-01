@@ -12,6 +12,8 @@
       <MoveSpeed>3.0</MoveSpeed>
       <ComfyTemperatureMin>-1</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
+      <ToxicSensitivity>0</ToxicSensitivity>
+      <LeatherAmount>80</LeatherAmount>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -36,12 +38,79 @@
     <race>
       <body>KneaderpillarBody</body>
       <herdAnimal>true</herdAnimal>
+      <fleshType>Insectoid</fleshType>
+      <bloodDef>Filth_BloodInsect</bloodDef>
       <baseBodySize>2.0</baseBodySize>
       <baseHungerRate>0.75</baseHungerRate>
       <baseHealthScale>1.7</baseHealthScale>
-      <foodType>VegetarianRoughAnimal</foodType>
+      <foodType>OmnivoreAnimal</foodType>
       <leatherDef>Kneaderpillar_Skin</leatherDef>
+      <wildness>0.07</wildness>
+      <trainability>Advanced</trainability>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <packAnimal>true</packAnimal>
+      <lifeExpectancy>10</lifeExpectancy>
+      <manhunterOnDamageChance>20</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
-    
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
   </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Keaderpillar</defName>
+    <label>kneaderpillar</label>
+    <race>Kneaderpillar</race>
+    <combatPower>60</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>1~6</wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>young</label>
+        <labelPlural>young</labelPlural>
+        <bodyGraphicData>
+          <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
+          <drawSize>2.15</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+        
 </Defs>
