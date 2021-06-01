@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!
   <!-- ====== Body Bits ====== -->
   <BodyPartDef>
     <defName>Abdomen</defName>
@@ -23,5 +22,16 @@
       <li>BloodPumpingSource</li>
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>KneaderpillarLeg</defName>
+    <label>leg</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>4</frostbiteVulnerability>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
   </BodyPartDef>
 </Defs>
