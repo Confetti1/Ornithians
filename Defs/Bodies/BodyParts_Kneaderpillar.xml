@@ -14,4 +14,14 @@
     <skinCovered>true</skinCovered>
   </BodyPartDef>
   
+  <BodyPartDef>
+    <defName>DorsalVessel</defName>
+    <hitPoints>10</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>3</bleedRate>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
 </Defs>
