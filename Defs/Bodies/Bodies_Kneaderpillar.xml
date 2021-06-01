@@ -1,1 +1,157 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BodyDef>
+    <defName>KneaderpillarBody</defName>
+    <label>kneaderpillar</label>
+    <corePart>
+      <def>Abdomen</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <!-- Midgut (stomach), intestine, six legs -->
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <label>midgut</label>
+          <depth>inside</depth>
+        </li>
+        <li>
+          <def>DorsalVessel</def>
+          <coverage>0.03</coverage>
+          <label>dorsal blood vessel</label>
+          <depth>inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left false leg 1</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right false leg 1</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left false leg 2</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right false leg 2</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left false leg 3</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right false leg 3</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+    
+    <corePart>
+      <def>Thorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Head</def>
+          <coverage>0.75</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <label>head capsule</label>
+              <coverage>0.25</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.70</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>AnimalJaw</def>
+              <coverage>0.10</coverage>
+              <groups>
+                <li>Teeth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>back left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>back right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+        
+        <!-- four legs, esophagus, head (Mouth, brain, eyes) -->
+</Defs>
