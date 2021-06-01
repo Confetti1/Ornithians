@@ -12,14 +12,14 @@
         <li>
           <def>Stomach</def>
           <coverage>0.03</coverage>
-          <label>midgut</label>
-          <depth>inside</depth>
+          <customLabel>midgut</customLabel>
+          <depth>Inside</depth>
         </li>
         <li>
           <def>DorsalVessel</def>
           <coverage>0.03</coverage>
-          <label>dorsal blood vessel</label>
-          <depth>inside</depth>
+          <customLabel>dorsal blood vessel</customLabel>
+          <depth>Inside</depth>
         </li>
         <li>
           <def>Kidney</def>
@@ -75,9 +75,7 @@
           <height>Bottom</height>
         </li>
       </parts>
-    </corePart>
-    
-    <corePart>
+      <li>
       <def>Thorax</def>
       <height>Middle</height>
       <depth>Outside</depth>
@@ -91,7 +89,7 @@
           <parts>
             <li>
               <def>Skull</def>
-              <label>head capsule</label>
+              <customLabel>head capsule</customLabel>
               <coverage>0.25</coverage>
               <depth>Inside</depth>
               <parts>
@@ -158,6 +156,7 @@
           <height>Bottom</height>
         </li>
       </parts>
+      </li>
     </corePart>
   </BodyDef>
         
