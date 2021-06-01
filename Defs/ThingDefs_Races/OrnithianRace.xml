@@ -473,7 +473,7 @@
         <eggUnfertilizedDef>EggOrnithianUnfertilized</eggUnfertilizedDef>
         <eggFertilizedDef>EggOrnithianFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>.3</eggLayIntervalDays>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>
