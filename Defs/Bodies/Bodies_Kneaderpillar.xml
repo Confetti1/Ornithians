@@ -113,8 +113,16 @@
               <coverage>0.12</coverage>
             </li>
             <li>
-              <def>Nose</def>
-              <coverage>0.10</coverage>
+              <def>Lung</def>
+              <label>left air sac</label>
+              <coverage>0.7</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <label>right air sac</label>
+              <coverage>0.7</coverage>
+              <depth>Inside</depth>
             </li>
             <li>
               <def>AnimalJaw</def>
