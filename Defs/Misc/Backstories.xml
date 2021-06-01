@@ -759,8 +759,6 @@
     <baseDescription>[PAWN_nameDef] refused to accept a standard job, preferring to follow [PAWN_possessive] whims. Unfortunately for the clan, those whims never included particularly hard work. </baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>Ornithian</li>
     </spawnCategories>
@@ -795,6 +793,34 @@
       <li>ManualDumb</li>
     </workDisables>
   </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+    <defName>Signalbird</defName>
+    <title>Signalbird</title>
+    <titleShort>Signalbird</titleShort>
+    <baseDescription>Thanks to [PAWN_nameDef]'s singing talent, [PAWN_pronoun] was the perfect choice for a Featherguard signalbird. [PAWN_possessive] job was to issue orders to other Featherguards during combat using practiced whistles.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <linkedBackstory>Songbird</linkedBackstory>
+    <spawnCategories>
+      <li>Ornithian</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+  
   <!--
   <AlienRace.BackstoryDef>
     <defName>Example</defName>
