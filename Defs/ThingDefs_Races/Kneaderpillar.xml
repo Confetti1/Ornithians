@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParenName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>Kneaderpillar</defName>
     <label>kneaderpillar</label>
     <description>A large, fat, worm-like invertebrate about the size of a bear. They share the movement method of a caterpillar, but not much else. Unlike caterpillars, kneaderpillars are a single-stage lifeform. Unlike most invertibrates, they also raise their own young.
@@ -100,6 +100,17 @@
           </shadowData>
         </bodyGraphicData>
       </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      
       <li>
         <bodyGraphicData>
           <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
