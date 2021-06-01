@@ -11,8 +11,8 @@
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>Textures/World/WorldObjects/Expanding/OrnithianFaction</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
-    <factionNameMaker>NamerFactionOrnithian</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOrnithian</settlementNameMaker>
+    <factionNameMaker>NamerPersonOrnithianMale</factionNameMaker>
+    <settlementNameMaker>NamerPersonOrnithianMale</settlementNameMaker>
     <pawnNameMaker>NamerPersonOrnithianMale</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonOrnithianFemale</pawnNameMakerFemale>
     <techLevel>Medieval</techLevel>
