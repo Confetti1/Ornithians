@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!
+  <!-- ====== Body Bits ====== -->
+  <BodyPartDef>
+    <defName>Abdomen</defName>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Thorax</defName>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+</Defs>
