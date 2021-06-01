@@ -99,7 +99,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
-          <drawSize>1.9</drawSize>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -110,7 +110,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animal/Kneaderpillar/kneaderpillar</texPath>
-          <drawSize>2.15</drawSize>
+          <drawSize>4</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
