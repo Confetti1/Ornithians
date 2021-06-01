@@ -9,7 +9,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
-    <factionIconPath>Textures/Symbols/DwarfCamp</factionIconPath>
+    <factionIconPath>Textures/World/WorldObjects/Expanding/OrnithianFaction</factionIconPath>
     <geneticVariance>0.1</geneticVariance>
     <factionNameMaker>NamerFactionOrnithian</factionNameMaker>
     <settlementNameMaker>NamerSettlementOrnithian</settlementNameMaker>
@@ -27,7 +27,7 @@
     <hairTags>
       <li>Ornithian</li>
     </hairTags>
-    <settlementTexturePath>World/WorldObjects/DwarfSettlement</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/OrnithianSettlement</settlementTexturePath>
     <caravanTraderKinds>
       <li>Caravan_Neolithic_BulkGoods</li>
       <li>Caravan_Neolithic_WarMerchant</li>
@@ -124,7 +124,7 @@
     <colorSpectrum>
       <li>(161, 114, 61)</li>
     </colorSpectrum>
-    <factionIconPath>World/WorldObjects/Expanding/DwarfCamp</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/OrnithianFaction</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
     <naturalColonyGoodwill>0</naturalColonyGoodwill>
   </FactionDef>
