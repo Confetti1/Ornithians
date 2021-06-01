@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParenName="AnimalThingBase">
+    <defName>Kneaderpillar</defName>
+    <label>kneaderpillar</label>
+    <description>A large, fat, worm-like invertebrate about the size of a bear. They share the movement method of a caterpillar, but not much else. Unlike caterpillars, kneaderpillars are a single-stage lifeform. Unlike most invertibrates, they also raise their own young.
+    
+    They are remarkably tame around people, especially if careful and slow movements are used. A comfortable kneaderpillar becomes pliant and easy to control, which makes them decent pack animals.
+      
+    Kneaderpillars produce insect jelly in order to feed their young. This can be harvested by those that the kneaderpillar feels comfortable around.</description>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <ComfyTemperatureMin>-1</ComfyTemperatureMin>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>InsectJelly</milkDef>
+        <milkIntervalDays>5</milkIntervalDays>
+        <milkAmount>10</milkAmount>
+      </li>
+    </comps>
+    
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+    </tools>
+    
+    <race>
+      <body>KneaderpillarBody</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHungerRate>0.75</baseHungerRate>
+      <baseHealthScale>1.7</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Kneaderpillar_Skin</leatherDef>
+    </race>
+    
+  </ThingDef>
+</Defs>
