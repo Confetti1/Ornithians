@@ -22,11 +22,11 @@
     <tools>
       <li>
         <capacities>
-          <li>Bite</li>
+          <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>6</power>
         <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
       </li>
     </tools>
