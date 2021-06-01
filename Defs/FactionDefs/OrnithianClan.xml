@@ -79,10 +79,7 @@
           <Ornithian_Trader>1</Ornithian_Trader>
         </traders>
         <carriers>
-          <Muffalo>6</Muffalo>
-          <Dromedary>5</Dromedary>
-          <Alpaca>2.5</Alpaca>
-          <Elephant>2</Elephant>
+          <Kneaderpillar>6</Kneaderpillar>
         </carriers>
         <guards>
           <Ornithian_Warrior>10</Ornithian_Warrior>
