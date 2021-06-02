@@ -8,9 +8,6 @@
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
     </statBases>
-    <sowResearchPrerequisites>
-        <li>OrnithianResearch</li>
-      </sowResearchPrerequisites>
     <graphicData>
       <texPath>Plants/MilletPlant</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -21,6 +18,9 @@
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
       <fertilitySensitivity>0.2</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>OrnithianResearch</li>
+      </sowResearchPrerequisites>
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawMillet</harvestedThingDef>
