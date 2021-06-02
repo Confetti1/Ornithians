@@ -42,6 +42,9 @@
     <defName>RawMillet</defName>
     <label>millet spray</label>
     <description>Raw millet. Ornithians still love it!</description>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
     <graphicData>
       <texPath>Item/RawMillet</texPath>
     </graphicData>
