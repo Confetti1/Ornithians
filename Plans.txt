@@ -1,7 +1,7 @@
 TO DO:
 - Add custom bird ears that are inside the head
 - Fix Kneaderpillar's bodies, make them produce jelly.
-- Add namegen to Ornithian factions. 
+- Outline RawMillet texture, touch up millet plant
 Race Details: Live about as long as humans.
   -!Weaker bones, so slightly less health. Their light bones gives them superior movement speed. 
   -!Procreate via eggs. (try to make it so they get sad if you eat fertilized ones) Make sure that it takes a long time for eggs to be produced.
