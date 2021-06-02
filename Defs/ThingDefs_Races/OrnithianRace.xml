@@ -399,6 +399,7 @@
       </relationSettings>
       
       <raceRestriction>
+        <foodList>RawMillet</foodList>
       </raceRestriction>
       
       <compatibility>
