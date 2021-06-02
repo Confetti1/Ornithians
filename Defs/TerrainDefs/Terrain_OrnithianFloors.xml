@@ -3,17 +3,18 @@
   <TerrainDef ParentName="FloorBase">
     <defName>StickweaveFloor</defName>
     <label>Stickweave</label>
-    <description>It's ugly and takes a bit to put together, but it's good for slowing down invaders. It is also quite flammable.</description>
-    <texturePath></texturePath>
+    <description>It's ugly, but it's good for slowing down invaders. It is also quite flammable.</description>
+    <texturePath>Terrain/Stickweave</texturePath>
     <burnedDef>BurnedStickweaveFloor</burnedDef>
     <edgeType>Hard</edgeType>
     <researchPrerequisites>
       <li>Smithing</li>
     </researchPrerequisites>
     <renderPrecedence>80</renderPrecedence>
+    <pathCost>12</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
-      <WorkToBuild>400</WorkToBuild>
+      <WorkToBuild>300</WorkToBuild>
       <Flammability>0.4</Flammability>
     </statBases>
     <costList>
@@ -28,7 +29,7 @@
     <label>burned stickweave</label>
     <renderPrecedence>81</renderPrecedence>
     <description>Burnt up woven sticks. Mostly ashes now.</description>
-    <texturePath></texturePath>
+    <texturePath>Terrain/StickweaveBurned</texturePath>
     <edgeType>FadeRough</edgeType>
   </TerrainDef>
     
