@@ -12,4 +12,28 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteMillet</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate millet</label>
+        <description>Nothing hits the spot quite like millet spray!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteFertilizedOrnithianEgg</defName>
+    <durationDays>2</durationDays>
+    <stages>
+      <li>
+        <label>ate ornithian child</label>
+        <description>That egg was fertilized... I killed a child!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>
