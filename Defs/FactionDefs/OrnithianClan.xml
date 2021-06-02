@@ -119,8 +119,8 @@
     <label>peaceful ornithian clan</label>
     <description>These Ornithians want only to live their simple lives, studying the stars and caring for their clan.</description>
     <colorSpectrum>
-      <li>(250, 255, 110)</li>
       <li>(255, 177, 51)</li>
+      <li>(250, 255, 110)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/OrnithianFaction</factionIconPath>
     <startingGoodwill>0~50</startingGoodwill>
