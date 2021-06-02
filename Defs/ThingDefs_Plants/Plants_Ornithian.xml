@@ -8,6 +8,9 @@
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
     </statBases>
+    <sowResearchPrerequisites>
+        <li>OrnithianResearch</li>
+      </sowResearchPrerequisites>
     <graphicData>
       <texPath></texPath>
       <graphicClass>Graphic_Random</graphicClass>
