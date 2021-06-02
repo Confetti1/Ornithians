@@ -23,7 +23,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <ingestible>
-      <tasteThought>AteFertilizedOrnithianEgg</tasteThough>
+      <tasteThought>AteFertilizedOrnithianEgg</tasteThought>
     </ingestible>
     <statBases>
       <MarketValue>300</MarketValue>
