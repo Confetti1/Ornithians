@@ -8,7 +8,7 @@
     <burnedDef>BurnedStickweaveFloor</burnedDef>
     <edgeType>Hard</edgeType>
     <researchPrerequisites>
-      <li>Smithing</li>
+      <li>OrnithianResearch</li>
     </researchPrerequisites>
     <renderPrecedence>80</renderPrecedence>
     <pathCost>12</pathCost>
