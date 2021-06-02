@@ -12,15 +12,27 @@
         <li>FemaleFirst->[Syl1][Syl2][Syl3][Syl4]</li>
         <li>FemaleFirst->[Syl1][Syl4]</li>
         <li>Last->[Syl1][Syl2][Syl3]</li>
+        <li>Settlement->[Geo] Nest</li>
+        <li>Settlement->[Adj] Nest</li>
+        <li>Settlement->[Noun] Nest</li>
+        <li>Settlement->[Geo][Noun]</li>
+        <li>Settlement->[Adj][Geo]</li>
+        <li>Settlement->[Adj][Noun]</li>
+        <li>Faction->[Adj] Clan</li>
+        <li>Faction->[Noun] Clan</li>
+        <li>Faction->[Geo] Clan</li>
       </rulesStrings>
       <rulesFiles>
         <li>Syl1->WordParts/OrnithianSyl1</li>
         <li>Syl2->WordParts/OrnithianSyl2</li>
         <li>Syl3->WordParts/OrnithianSyl3</li>
         <li>Syl4->WordParts/OrnithianSyl4</li>
+        <li>Geo->Words/Geography</li>
+        <li>Noun->Words/Noun</li>
+        <li>Adj->Words/Adjective</li>
       </rulesFiles>
     </rulePack>
-    </RulePackDef>
+  </RulePackDef>
 
     
     <RulePackDef>
@@ -46,27 +58,27 @@
             </rulesStrings>
         </rulePack>
     </RulePackDef>
-    <!--
+
     <RulePackDef>
-        <defName>NamerFactionDwarf</defName>
+        <defName>NamerFactionOrnithian</defName>
         <include>
-            <li>NamerDwarfUtility</li>
+            <li>NamerOrnithianUtility</li>
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=2)->[DwarfFaction]</li>
+                <li>r_name(p=1)->[Faction]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
     
     <RulePackDef>
-        <defName>NamerSettlementDwarf</defName>
+        <defName>NamerSettlementOrnithian</defName>
         <include>
-            <li>NamerDwarfUtility</li>
+            <li>NamerOrnithianUtility</li>
         </include>
         <rulePack>
             <rulesStrings>
-                <li>r_name(p=1)->[DwarfSettlement]</li>
+                <li>r_name(p=1)->[Settlement]</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
