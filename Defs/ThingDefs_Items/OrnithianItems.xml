@@ -43,7 +43,7 @@
     <label>millet spray</label>
     <description>Raw millet. Ornithians still love it!</description>
     <graphicData>
-      <texPath></texPath>
+      <texPath>Item/RawMillet</texPath>
     </graphicData>
     <statBases>
       <MarketValue>0.9</MarketValue>
