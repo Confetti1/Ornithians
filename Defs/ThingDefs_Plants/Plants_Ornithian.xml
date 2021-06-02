@@ -12,7 +12,7 @@
         <li>OrnithianResearch</li>
       </sowResearchPrerequisites>
     <graphicData>
-      <texPath></texPath>
+      <texPath>Plants/MilletPlant</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
