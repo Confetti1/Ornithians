@@ -11,7 +11,7 @@
       <li>OrnithianResearch</li>
     </researchPrerequisites>
     <renderPrecedence>80</renderPrecedence>
-    <pathCost>12</pathCost>
+    <pathCost>25</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
       <WorkToBuild>300</WorkToBuild>
