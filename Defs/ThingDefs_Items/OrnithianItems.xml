@@ -22,6 +22,9 @@
       <texPath>Item/OrnithianEgg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <ingestible>
+      <tasteThought>AteFertilizedOrnithianEgg</tasteThough>
+    </ingestible>
     <statBases>
       <MarketValue>300</MarketValue>
       <Nutrition>1</Nutrition>
@@ -44,13 +47,16 @@
     </graphicData>
     <statBases>
       <MarketValue>0.9</MarketValue>
+      <Nutrition>0.1</Nutrition>
     </statBases>
     <ingestible>
       <foodType>Seed</foodType>
-      <preferability>DesperateOnly</preferability>
+      <preferability>MealSimple</preferability>
       <tasteThought>AteMillet</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
+      <joy>0.15</joy>
+      <joyKind>Gluttonous</joyKind>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
