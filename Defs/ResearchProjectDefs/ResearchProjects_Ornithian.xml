@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>OrnithianResearch</defName>
+    <label>Ornithian Research</label>
+    <description>Gain the mindset of the Ornithians, a desert-dwelling race who prize ranged combat and astrology.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Ornithian</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>
