@@ -1,0 +1,16 @@
+fire
+water
+leaf
+feather
+beak
+talon
+stone
+pebble
+jump
+spear
+crown
+crest
+seed
+wing
+claw
+flock

@@ -1,0 +1,10 @@
+pool
+dune
+cliff
+sun
+star
+moon
+cave
+hill
+ravine
+sand
