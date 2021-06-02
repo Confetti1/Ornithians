@@ -13,11 +13,11 @@
     <renderPrecedence>80</renderPrecedence>
     <statBases>
       <Beauty>-2</Beauty>
-      <WorkToBuild>600</WorkToBuild>
-      <Flammability>0.22</Flammability>
+      <WorkToBuild>400</WorkToBuild>
+      <Flammability>0.4</Flammability>
     </statBases>
     <costList>
-      <WoodLog>4</WoodLog>
+      <WoodLog>1</WoodLog>
     </costList>
     <constructEffect>ConstructWood</constructEffect>
     <designationHotKey>Misc9</designationHotKey>
