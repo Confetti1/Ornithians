@@ -17,7 +17,7 @@
       <Flammability>0.4</Flammability>
     </statBases>
     <costList>
-      <WoodLog>1</WoodLog>
+      <WoodLog>2</WoodLog>
     </costList>
     <constructEffect>ConstructWood</constructEffect>
     <designationHotKey>Misc9</designationHotKey>
