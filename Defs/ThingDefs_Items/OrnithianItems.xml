@@ -34,4 +34,30 @@
       </li>
     </comps>
   </ThingDef>
+  
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawMillet</defName>
+    <label>millet spray</label>
+    <description>Raw millet. Ornithians still love it!</description>
+    <graphicData>
+      <texPath></texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.9</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+      <preferability>DesperateOnly</preferability>
+      <tasteThought>AteMillet</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>100</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+    
 </Defs>
