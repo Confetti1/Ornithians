@@ -72,5 +72,29 @@
       <armorPenetrationBase>0.10</armorPenetrationBase>
       <speed>60</speed>
     </projectile>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,87,87,255)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255,255)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(112,255,87,255)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(255,238,46,255)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(173,124,94,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
 </Defs>
