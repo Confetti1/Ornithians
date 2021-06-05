@@ -3,7 +3,7 @@
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Wingbow</defName>
     <label>wingbow</label>
-    <description>A crossbow with a clip fitted to the top of it, allowing multiple arrows to be fired in quick succession. It does take a bit longer to load a new clip, however.</description>
+    <description>This device is similar to a crossbow in many ways. A simple, yet complex feeding system allows it to fire small projectiles in very quick succession.</description>
     <graphicData>
       <texPath>Item/Wingbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -18,7 +18,7 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>3.0</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>.25</RangedWeapon_Cooldown>
