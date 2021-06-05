@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Wingbow</defName>
+    <label>wingbow</label>
+    <description>A crossbow with a clip fitted to the top of it, allowing multiple arrows to be fired in quick succession. It does take a bit longer to load a new clip, however.</description>
+    <graphicData>
+      <texPath>Item/Wingbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+      <Steel>20</Steel>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>.5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>MedievalRanged</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Featherbolt</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <range>30</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+      </recipeUsers>
+      <researchPrerequisite>OrnithianResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef> 
+  
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Featherbolt</defName>
+    <label>featherbolt</label>
+    <graphicData>
+      <texPath>Item/Projectile/Featherbolt</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
